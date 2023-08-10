@@ -10,3 +10,8 @@ void Data::listMembers()
     }
     std::cout << std::endl;
 }
+
+void Data::addMember(std::string member)
+{
+    m_teamMembers.push_back(member);
+}

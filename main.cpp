@@ -5,11 +5,15 @@ int main()
 {
 
     std::cout << "Hello World!" << std::endl;
-    if (false)
+    std::cout << "Give me the name of team members separated by space." << std::endl;
+    Data myData;
+    for (int i = 0;i<11;i++)
     {
-        Data myData;
-        myData.listMembers();
+        std::string data;
+        std::cin >> data;
+        myData.addMember(data);
     }
+    myData.listMembers();
 
     return 0;
 }

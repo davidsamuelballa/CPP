@@ -9,7 +9,8 @@ private:
     std::vector<std::string> m_teamMembers;
 
 public:
-    void listMembers();       
+    void listMembers();
+    void addMember(std::string member);       
 };
 
 #endif //DATA_H
